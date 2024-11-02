@@ -7,5 +7,12 @@ export default defineNuxtConfig({
     typeCheck: true
   },
 
-  modules: ['@nuxt/eslint', '@nuxt/content']
+  modules: ['@nuxt/eslint', '@nuxt/content'],
+
+  runtimeConfig: {
+    githubToken: ''
+  },
+
+  // https://nitro.unjs.io/config
+  nitro: {},
 })
