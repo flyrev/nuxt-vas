@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -eo pipefail
+
+if [ ! -d webapp ]
+then
+  pnpm dlx nuxi@latest init webapp
+fi
+
